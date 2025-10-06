@@ -66,8 +66,8 @@ body {
     padding: 20px;
     border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, 0.4);
-    width: 220px; /* Увеличено с 150px */
-    min-height: 320px; /* Увеличено с 220px */
+    width: 1800px; /* Увеличено с 150px */
+    min-height: 250px; /* Увеличено с 220px */
     justify-content: space-between;
     align-items: center;
     text-align: center;
@@ -104,8 +104,8 @@ body {
 
 /* Увеличенные картинки */
 .container img {
-    width: 180px; /* Увеличено с 120px */
-    height: 180px; /* Увеличено с 120px */
+    width: 150px; /* Увеличено с 120px */
+    height: 150px; /* Увеличено с 120px */
     border-radius: 16px;
     margin: 0 auto 15px;
     display: block;
