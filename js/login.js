@@ -6,7 +6,6 @@ const products = [
   { id: 5, name: "Защита рук Zetta", image: "../images/7379477234.jpg", price: 250 },
   { id: 6, name: "Защита рук", image: "../images/7644093156.jpg", price: 180 },
   { id: 7, name: "Пульт Ктм, Кнопки запуска", image: "../images/dispositivo-luz-de-freno-bomba-nissin.jpg", price: 220 },
-  { id: 8, name: "Смартком Комплект Ланза 302т", image: "../images/IMG_20250911_115353.jpg.webp", price: 190 },
   { id: 9, name: "Пластик Ktm 20-22г", image: "../images/7097555750.jpg", price: 270 },
   { id: 10, name: "FEX чехол сиденья", image: "../images/fex-18-23526_xl.jpg", price: 320 },
   { id: 11, name: "Масло ZIC X9 4т", image: "../images/6143152451.jpg", price: 140 },
