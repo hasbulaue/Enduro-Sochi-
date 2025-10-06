@@ -119,7 +119,7 @@ document.getElementById('feedbackForm').addEventListener('submit', function(e) {
             sessionStorage.removeItem('cart_items');
             
             setTimeout(() => {
-                window.location.href = '/orderdone/';
+                window.location.href = '/Enduro-Sochi-/orderdone/';
             }, 2000);
         } else {
             messageBox.textContent = 'Ошибка при отправке заказа. Попробуйте еще раз.';
@@ -157,7 +157,7 @@ function createOrderSummary() {
     
     orderSummary.querySelector('#checkout-button').addEventListener('click', function() {
         if (!this.disabled) {
-            window.location.href = '/order/';
+            window.location.href = '/Enduro-Sochi-/order/';
         }
     });
     
