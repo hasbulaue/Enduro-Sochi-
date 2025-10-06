@@ -66,7 +66,7 @@ body {
     padding: 20px;
     border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, 0.4);
-    width: 1800px; /* Увеличено с 150px */
+    width: 180px; /* Увеличено с 150px */
     min-height: 250px; /* Увеличено с 220px */
     justify-content: space-between;
     align-items: center;
