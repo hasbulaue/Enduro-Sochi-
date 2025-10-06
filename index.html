@@ -1,9 +1,14 @@
-{% extends "base.html" %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
 
-{% block title %}Главная страница{% endblock %}
-
-{% block content %}
-<div class="header">
+    <title>Enduro Sochi</title>
+</head>
+<body>
+    <div class="header">
     <form action="#">
         <input type="text" class="inputText" id="searchInput" placeholder="Поиск">
 
@@ -21,5 +26,5 @@
     
 
 <script src="{{ url_for('static', filename='js/index.js') }}"></script>
-
-{% endblock %}
+</body>
+</html>
