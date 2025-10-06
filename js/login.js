@@ -157,7 +157,7 @@ function createOrderSummary() {
     
     orderSummary.querySelector('#checkout-button').addEventListener('click', function() {
         if (!this.disabled) {
-            window.location.href = '/Enduro-Sochi-/';
+            window.location.href = '/Enduro-Sochi-/order/';
         }
     });
     
