@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
+    <title>Логин</title>
+</head>
+<body>
+    <form id="feedbackForm" class="feedback-form">
+    <h2>Оформление заказа</h2>
+    
+    <div class="form-group required">
+        <label for="name">Ваше имя</label>
+        <input type="text" id="name" class="form-control" placeholder="Введите ваше имя" required>
+    </div>
+    
+    <div class="form-group required">
+        <label for="email">Email</label>
+        <input type="email" id="email" class="form-control" placeholder="Введите ваш email" required>
+    </div>
+    
+    <div class="form-group required">
+        <label for="phone">Телефон</label>
+        <input type="tel" id="phone" class="form-control" placeholder="Введите ваш телефон" required>
+    </div>
+    
+    <div class="form-group required">
+        <label for="message">Адрес доставки</label>
+        <textarea id="message" class="form-control" placeholder="Введите адрес доставки" required></textarea>
+    </div>
+    
+    <button type="submit" class="submit-btn">Отправить заказ</button>
+    
+    <div id="messageBox" class="message" style="display: none;"></div>
+</form>
+
+
+<script src="{{ url_for('static', filename='js/login.js') }}"></script>
+</body>
+</html>
