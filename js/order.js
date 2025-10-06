@@ -11,7 +11,7 @@ const products = [
   { id: 9, name: "Пластик Ktm 20-22г", image: "../images/7097555750.jpg", price: 5700 },
   { id: 10, name: "FEX чехол сиденья", image: "../images/fex-18-23526_xl.jpg", price: 1500 },
   { id: 11, name: "Масло ZIC X9 4т", image: "../images/6143152451.jpg", price: 900 },
-  { id: 12, name: "Масло LAVR 10w-40", image: "..//7364265278.jpg", price: 800 },
+  { id: 12, name: "Масло LAVR 10w-40", image: "../images/7364265278.jpg", price: 800 },
   { id: 13, name: "Масло MOTUL 2т", image: "../images/324ae8c208cd36ef987fc92edf811c4a.jpeg", price: 1500 },
 ];
 
