@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}Главная страница{% endblock %}
+
+{% block content %}
+<div class="header">
+    <form action="#">
+        <input type="text" class="inputText" id="searchInput" placeholder="Поиск">
+
+    </form>
+    
+</div>
+<div class="container">
+
+
+    <div id="productsContainer"></div>
+    <div id="pagination"></div>
+</div>
+
+
+    
+
+<script src="{{ url_for('static', filename='js/index.js') }}"></script>
+
+{% endblock %}
