@@ -1,4 +1,3 @@
-// Функция для получения информации о товарах в корзине
 const products = [
   { id: 1, name: "Лапка КПП OTOM синяя", image: "/static/images/7195986433.jpg", price: 999 },
   { id: 2, name: "Лапка КПП OTOM красная", image: "/static/images/7195958399.jpg", price: 200 },
