@@ -1,6 +1,6 @@
 const products = [
   { id: 1, name: "Лапка КПП OTOM синяя", image: "../images/7195958399.jpg", price: 999 },
-  { id: 2, name: "Лапка КПП OTOM красная", image: "../images/7195958399.jpg", price: 99 },
+  { id: 2, name: "Лапка КПП OTOM красная", image: "../images/7195958399.jpg", price: 999 },
   { id: 3, name: "Руль IGP 22/28мм", image: "../images/z9248laqqj3ior01rgl6dc5ha2yth94c.jpg", price: 3999 },
   { id: 4, name: "Руль IGP 22/28мм", image: "../images/9pz5qasv62j604s9b9ji2fe0ukjn6q6o.jpg", price: 3999 },
   { id: 5, name: "Защита рук Zetta", image: "../images/7379477234.jpg", price: 2500 },
