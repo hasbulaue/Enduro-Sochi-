@@ -76,7 +76,7 @@ function createEmptyCartMessage() {
         <div class="empty-cart-icon">🛒</div>
         <h2>Корзина пуста</h2>
         <p>Добавьте товары из каталога, чтобы сделать заказ</p>
-        <a href="/index" class="back-to-catalog">Вернуться в каталог</a>
+        <a href="/Enduro-Sochi-/" class="back-to-catalog">Вернуться в каталог</a>
     `;
     return emptyCartDiv;
 }

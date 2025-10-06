@@ -1,5 +1,5 @@
 const products = [
-  { id: 1, name: "Лапка КПП OTOM синяя", image: "/static/images/7195986433.jpg", price: 999 },
+  { id: 1, name: "Лапка КПП OTOM синяя", image: "/assets/7195986433.jpg", price: 999 },
   { id: 2, name: "Лапка КПП OTOM красная", image: "/static/images/7195958399.jpg", price: 200 },
   { id: 3, name: "Руль IGP 22/28мм", image: "/static/images/z9248laqqj3ior01rgl6dc5ha2yth94c.jpg", price: 150 },
   { id: 4, name: "Руль IGP 22/28мм", image: "/static/images/9pz5qasv62j604s9b9ji2fe0ukjn6q6o.jpg", price: 300 },
@@ -244,7 +244,7 @@ function createCartButton() {
   cartButton.textContent = '🛒 Корзина';
   cartButton.id = 'cart-button';
   cartButton.addEventListener('click', () => {
-    window.location.href = '/order';
+    window.location.href = '/Enduro-Sochi-/order/';
   });
   document.body.appendChild(cartButton);
 }
