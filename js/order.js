@@ -116,7 +116,7 @@ function createBackToCatalogButton() {
     backButton.innerHTML = '← Вернуться к каталогу';
     
     backButton.addEventListener('click', function() {
-        window.location.href = '/index';
+        window.location.href = '/Enduro-Sochi-/';
     });
     
     return backButton;
