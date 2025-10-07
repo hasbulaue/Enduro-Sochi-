@@ -1,3 +1,6 @@
+
+
+
 const products = [
   { id: 1, name: "Лапка КПП OTOM синяя", image: "../images/7195958399.jpg", price: 999 },
   { id: 2, name: "Лапка КПП OTOM красная", image: "../images/7195958399.jpg", price: 999 },
@@ -13,15 +16,8 @@ const products = [
   { id: 13, name: "Масло MOTUL 2т", image: "../images/324ae8c208cd36ef987fc92edf811c4a.jpeg", price: 1500 },
 ];
 
-// Функция для получения конфигурации
-function getConfig() {
-  // Для продакшена - используем переменные окружения
-  // Для разработки - fallback значения
-  return {
-    botToken: process?.env?.TELEGRAM_BOT_TOKEN,
-    chatId: process?.env?.TELEGRAM_CHAT_ID
-  };
-}
+
+
 
 function getCartItemsInfo() {
     const cartItems = sessionStorage.getItem('cart_items');
@@ -95,12 +91,11 @@ document.getElementById('feedbackForm').addEventListener('submit', function(e) {
     };
     
     const cartInfo = getCartItemsInfo();
+    
     const telegramMessage = formatOrderMessage(formData, cartInfo);
     
-    // Получаем конфигурацию
-    const config = getConfig();
-    const botToken = config.botToken;
-    const chatId = config.chatId;
+    const botToken = '8166774313:AAEsNleY3OGFMK4EFMB0aJKbFdwtmvvgKg4';
+    const chatId = '840202518';
     
     fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
         method: 'POST',
