@@ -1,6 +1,3 @@
-
-
-
 const products = [
   { id: 1, name: "Лапка КПП OTOM синяя", image: "../images/7195958399.jpg", price: 999 },
   { id: 2, name: "Лапка КПП OTOM красная", image: "../images/7195958399.jpg", price: 999 },
